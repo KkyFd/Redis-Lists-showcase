@@ -1,0 +1,12 @@
+body{background: rgba(232, 148, 253, 0.788); font-family: verdana; padding: 30px;}
+
+p{font-size: 18px;  text-transform: uppercase; letter-spacing: 2px; text-align: center; font-family: Arial, Helvetica, sans-serif;}
+            
+h1{font-size: 24px;  text-transform: uppercase; letter-spacing: 2px; text-align: center;}
+            
+form{text-align: center;}
+
+li{font-size: 18px;  text-transform: uppercase; letter-spacing: 2px; text-align: center; font-family: Arial, Helvetica, sans-serif;}
+
+#logo{display: block; position: flex; margin-left: auto; margin-right: auto;}
+

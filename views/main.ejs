@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Linked List</title>
+        <link rel="icon" href="/redis_logo.webp">
+        <link type="text/css" rel="stylesheet" href="/style.css">
+    </head>
+    <body>
+        <%-include("par/logo.ejs") %>
+        <form method="POST" action="/">
+            <label for="post"></label>
+            <input type="text" id="post" name="post" placeholder="Postar" required>
+            <input type="submit" value="OK">
+        <h1>:P</h1><br><br>
+        <ol>
+        <%for(let i = 0; i < 10; i++){%>
+            <li><%=posts[i]%></li>
+        <%}%>
+        </ol>
+        </form>
+    </body>
+</html>
